@@ -1,0 +1,545 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+footer, header, main, nav, section {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+}
+
+/* Navigation */
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+
+.navbar .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+}
+
+.navbar-brand {
+display: inline-block;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-right: 16px;
+font-size: 20px;
+line-height: inherit;
+white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1,5;
+    border-radius: 4px;
+}
+
+/* Masthead */
+header.masthead {
+    padding: 192px 0;
+    margin: -50px;
+}
+
+header.masthead {
+    position: relative;
+    background-color: #343a40;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), url(https://blackrockdigital.github.io/startbootstrap-landing-page/img/bg-masthead.jpg);
+    background-size: cover;
+    
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+header.masthead.overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.mx-auto {
+margin: 0 auto;
+}
+
+.ml-auto, .mx-auto {
+    flex: 0 0 75%;
+    max-width: 75;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+header.masthead h1 {
+    font-size: 48px;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 48px;
+}
+
+.mx-auto {
+margin: 0 auto;
+}
+
+.col-xl-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.form-row.col-12 {
+    padding: 0 5px;
+}
+
+.mb-md-0 {
+    margin-bottom: 0;
+}
+
+.col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.form-control-lg {
+    height: 42px;
+    padding: 8px 16px;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 4.8px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+
+button, input {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+}
+
+.col-md-3 {
+    flex-basis: 0 0 25%;
+    max-width: 25%;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-lg {
+    padding: 8px 16px;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 4.8px;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Icons Grid */
+.features-icons {
+    padding: 112px 0;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.col-lg-4 {
+    max-width: 33.333333%;
+}
+
+.features-icons.features-icons-items {
+    max-width: 320px;
+}
+
+
+.mx-auto {
+    margin: 0 auto 16px auto;
+}
+
+.features-icons.features-icons-item.features-icons-icon {
+    height: 112px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 72px;
+}
+
+.text-primary {
+    color: #007bff!important;
+}
+
+.m-auto {
+    margin: auto!important;
+}
+
+.h3, h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 15px;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.lead {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+p {
+    margin-top: 0;
+}
+
+.text-primary {
+    color: #007bff!important;
+}
+
+.m-auto {
+    margin: auto!important;
+}
+
+/* Image Showcases */
+section {
+    display: block;
+}
+
+.p-0 {
+    0;
+}
+
+.comtainer-fluid {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.no-gutters {
+    margin: 0 auto;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.showcase .showcase-img {
+    min-height: 480px;
+    background-size: cover;
+}
+
+.showcase .showcase-text {
+    padding: 112px;
+}
+
+.order-lg-2 {
+    order: 2;
+}
+
+.col-lg-6 {
+    max-width: 50%;
+}
+
+. h2, h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.mb-0 {
+    margin-bottom: ;
+}
+
+.lead {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+p {
+    margin-top: 0;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 112px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-light {
+    #f8f9fa
+}
+
+.mb-5 {
+    margin-bottom: 48px;
+}
+
+.h2, h2 {
+font-size: 32px;
+}
+
+.testimonials .testimonial-item {
+    max-width: 288px;
+}
+
+.mb-lg-0 {
+    margin-bottom: 0;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonials .testimonial-item img {
+    max-width: 250px;
+}
+
+.mb-lg-0 {
+    margin-bottom: 0;
+}
+
+.mb-3 {
+    margin-bottom: 16px;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.h5, h5 {
+    font-size: 20px;
+}
+
+.font-weight-light {
+    font-weight: 300;
+}
+
+.mb-0 {
+    margin-bottom: o;
+}
+
+p {
+    margin-top: 0;
+}
+
+/* Call to Action */
+.call-to-action {
+    position: relative;
+    background-color: #343a40;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), url(https://blackrockdigital.github.io/startbootstrap-landing-page/img/bg-masthead.jpg);
+    background-size: cover;
+    padding: 112px 0;
+}
+
+.call-to-action.overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Footer */
+footer.footer {
+    padding: 64px 0;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.text-lg-left {
+    text-align: left;
+}
+
+.my-auto {
+margin: auto 0;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.col-lg-6 {
+    max-width: 50%;
+}
+
+.mb-2 {
+    margin-bottom: 8px;
+}
+
+.list-inline {
+    padding-left: 0;
+}
+
+ul {
+    margin-top: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.list-inline-item {
+    display: inline-block;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.mb-lg-0 {
+    margin-bottom: 0;
+}
+
+.small, small {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+p{
+    margin-top: o;
+}
+
+.text-lg-right {
+    text-align: right;
+}
+
+.my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.col-lg-6 {
+    max-width: 50%;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mr-3 {
+    margin-right: 16px;
+}
+
+
+
